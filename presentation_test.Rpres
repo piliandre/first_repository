@@ -1,0 +1,28 @@
+presentation_test
+========================================================
+author: Pilar Endara  
+date: 15.11.2016
+autosize: true
+
+A first plot
+========================================================
+This presentation uses knitr
+
+```{r, echo=FALSE} 
+plot(1:20, pch=1:20) #echo takes out this code
+```
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
